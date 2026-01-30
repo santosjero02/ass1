@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+<header class="navbar">
+    <a href="Assessment1_Santos.html" class="logo">Profile Page</a>
+
+    <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a class="active" href="projects.html">Projects</a></li>
+        <li><button class="contact-btn" onclick="openContact()">Contact</button></li>
+    </ul>
+</header>
+
+<main>
+    <section class="projects-section">
+        <h1>Projects</h1>
+        <p>Here are some of the projects I've worked on, showcasing my skills in creating functional, <br>visually appealing, and user-friendly websites.</p>
+
+        <section class="projects-grid">
+            <article class="project-card">
+                <img src="project2ss.png" alt="Ohm's Law Website Screenshot" class="project-image">
+                <h3>Ohm's Law Website (for friend)</h3>
+                <p>A descriptive website of Ohm's Law built with HTML and CSS.</p>
+                <a href="https://santosjero02.github.io/ohmslaww/" target="_blank" class="view-btn">View Live</a>
+            </article>
+
+            <article class="project-card">
+                <img src="project1ss.png" alt="Portfolio Website Screenshot" class="project-image">
+                <h3>Portfolio Website (Commission)</h3>
+                <p>A responsive personal website built with HTML and CSS.</p>
+                <a href="https://santosjero02.github.io/Assessment1/" target="_blank" class="view-btn">View Live</a>
+            </article>
+
+            <article class="project-card">
+                <img src="project3ss.png" alt="Coffee Queue Screenshot" class="project-image">
+                <h3>Coffee Queue App</h3>
+                <p>A simple queueing app built with Java as project for our finals in DSAA.</p>
+                <a href="https://github.com/DSA-25-26-1/dsa-case-study-nw2a-grp2-queue-1" target="_blank" class="view-btn repo-btn">View Repository</a>
+            </article>
+        </section>
+    </section>
+</main>
+
+<aside id="contactPanel" class="contact-panel">
+    <span onclick="closeContact()">x</span>
+    <h2>Contact Me</h2>
+    <p><i class="fas fa-envelope"></i> Email: jjrsaints@gmail.com</p>
+    <p><i class="fab fa-github"></i> GitHub: github.com/santosjero02</p>
+    <p><i class="fab fa-facebook"></i> Facebook: Jero Jan Rein Santos</p>
+    <p><i class="fas fa-phone"></i> Contact Number: 09515712582</p>
+</aside>
+
+<script src="script.js"></script>
+
+<footer class="footer">
+    <p>© 2026 Jero Santos. All rights reserved.</p>
+
+    <nav class="footer-links">
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="https://github.com/santosjero02" target="_blank">GitHub</a>
+    </nav>
+</footer>
+
+</body>
+</html>

@@ -1,1 +1,1 @@
-# ass1
+This is a personal portfolio website for Jero Jan Rein C. Santos, an aspiring web developer. It showcases his skills in HTML, CSS, and JavaScript, along with projects he has built. The portfolio features a skills section, project previews with live demos, and a contact panel for easy communication. Designed with a clean, user-friendly interface, it is fully responsive and works seamlessly on both desktop and mobile devices.

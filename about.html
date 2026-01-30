@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+
+<header class="navbar">
+    <a href="Assessment1_Santos.html" class="logo">Profile Page</a>
+
+    <ul class="nav-links">
+        <li><a class="active" href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><button class="contact-btn" onclick="openContact()">Contact</button></li>
+    </ul>
+</header>
+
+<main>
+    <section class="about-section">
+        <figure class="about-image">
+            <img src="self.jpg" alt="Profile image">
+        </figure>
+
+        <article>
+            <h1>About Me</h1>
+            <p>
+                Hi! <strong>I'm Jero Jan Rein C. Santos</strong>, a <strong>20 years old student</strong> and an aspiring web developer passionate about turning ideas into interactive and user-friendly websites. 
+                I enjoy learning the latest web technologies and experimenting with HTML, CSS, and JavaScript to bring creative concepts to life.
+            </p><br>
+            <p>
+                I'm continuously learning and exploring new tools and frameworks to improve my skills. Beyond coding, 
+                I enjoy listening to music and playing games also, activities that inspire creativity and problem-solving.
+            </p>
+            <section class="about-cards">
+                <article class="about-card"><strong>Clean & Semantic Code</strong>
+                    <p>Writing well-structured, semantic HTML and CSS components for maintainable codebases.</p>
+                </article>
+                <article class="about-card"><strong>Modern UI Styling</strong>
+                    <p>Crafting visually appealing interfaces using CSS and responsive design principles.</p>
+                </article>
+                <article class="about-card"><strong>Interactive Components</strong>
+                    <p>Building dynamic, user-friendly components with JavaScript and UI libraries.</p>
+                </article>
+            </section>
+        </article>
+    </section>
+</main>
+
+<aside id="contactPanel" class="contact-panel">
+    <span onclick="closeContact()">x</span>
+    <h2>Contact Me</h2>
+    <p><i class="fas fa-envelope"></i> Email: jjrsaints@gmail.com</p>
+    <p><i class="fab fa-github"></i> GitHub: github.com/santosjero02</p>
+    <p><i class="fab fa-facebook"></i> Facebook: Jero Jan Rein Santos</p>
+    <p><i class="fas fa-phone"></i> Contact Number: 09515712582</p>
+</aside>
+
+<script src="script.js"></script>
+
+<footer class="footer">
+    <p>© 2026 Jero Santos. All rights reserved.</p>
+
+    <nav class="footer-links">
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="https://github.com/santosjero02" target="_blank">GitHub</a>
+    </nav>
+</footer>
+</body>
+</html>
